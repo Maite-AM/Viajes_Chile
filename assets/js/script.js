@@ -1,5 +1,8 @@
 $(function(){
 
+    $('.carousel').carousel()
+
+
     $("button").click(function(){
         alert("Me dieron click con JQuery");
         $("p").show();
