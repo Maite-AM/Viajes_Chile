@@ -1,9 +1,15 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color:#000000;
     }
 
 /* Ajuste tamaño del logo */
 .logo_navbar{
     height: 1.5rem;
     width: 1.5rem;
+}
+
+
+.icono {;
+    background-color: rgb(86, 143, 143);
 }
