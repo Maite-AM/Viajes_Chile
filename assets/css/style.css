@@ -3,8 +3,19 @@ body {
     background-color:#000000;
     }
 
+header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding-bottom: 10rem;
+    }
+
+.navbar{
+    color: white;
+}
+
 /* Ajuste tamaño del logo */
-.logo_navbar{
+.navbar-brand img {
     height: 1.5rem;
     width: 1.5rem;
 }
@@ -19,10 +30,12 @@ body {
     font-weight: lighter;
 }
 
-.icono, .destacados {
+#icono_prueba {
     background-color: rgb(86, 143, 143);
 }
+
 
 footer {
     background-color: rgb(86, 143, 143);
 }
+
