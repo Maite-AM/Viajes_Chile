@@ -24,6 +24,12 @@ $(function(){
             alert("Mensaje enviado exitosamente. Te contactaremos a la brevedad!");})
         });
 
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip({
+            placement : 'top'
+        });
+    });
+
   });
 
 
