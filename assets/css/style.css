@@ -24,6 +24,7 @@ header {
     background-color: rgb(86, 143, 143);
 }
 
+
 hr{
     background-color: #34495E;
     border-width: 1px;
@@ -43,3 +44,10 @@ footer {
     background-color: rgb(86, 143, 143);
 }
 
+.card img {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
