@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color:#000000;
     }
 
@@ -9,7 +9,9 @@ header {
     background-position: left;
     padding-bottom: 10rem;
     }
-
+    
+/* SECCIÓN NAVBAR */
+/* Color del texto */
 .navbar{
     color: white;
 }
@@ -20,34 +22,41 @@ header {
     width: 1.5rem;
 }
 
-.card {
-    background-color: rgb(86, 143, 143);
-}
-
-
-hr{
-    background-color: #34495E;
-    border-width: 1px;
-}
-
-.parrafo2 {
-    font-size: 1rem;
-    font-weight: lighter;
-}
-
+/* QUIENES SOMOS */
+/* Fondo de los íconos */
 #icono_prueba {
-    background-color: rgb(86, 143, 143);
+    background-color: #568f8f;
 }
 
-
-footer {
-    background-color: rgb(86, 143, 143);
+/* DESTACADOS */
+/* Color de fondo de "cards" */
+.card {
+    background-color: #568f8f;
 }
 
+/* Ajuste de las imágenes contenidas en "cards" */
 .card img {
     height: 250px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
 
+/* Tamaño y grosor de tipografía del texto en "cards" */
+.parrafo2 {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+/* CONTACTO */
+/* Línea bajo título */
+hr{
+    background-color: #34495E;
+    border-width: 1px;
+}
+
+/* FOOTER */
+/* Color del footer */
+.footer_color {
+    background-color: #568f8f;
 }
