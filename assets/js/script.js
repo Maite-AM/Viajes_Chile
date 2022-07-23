@@ -1,17 +1,10 @@
 $(function(){
-
     $('.carousel').carousel()
+})
 
 
-    $("button").click(function(){
-        alert("Me dieron click con JQuery");
-        $("p").show();
-        console.log($(".entradas").val())
-    });
-
-    $("p").dblclick(function(){
-        $(this).hide()
-    });
-
-
+$(document).ready(function(){
+var botonCorreo = $('#enviarMensaje');
+botonCorreo.on('click', function(){
+    alert("Mensaje enviado exitosamente. Te contactaremos a la brevedad!");})
 })

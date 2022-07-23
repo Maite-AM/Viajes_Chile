@@ -9,7 +9,20 @@ body {
     width: 1.5rem;
 }
 
+.card {
+    background-color: rgb(86, 143, 143);
+}
 
-.icono {;
+
+.parrafo2 {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.icono, .destacados {
+    background-color: rgb(86, 143, 143);
+}
+
+footer {
     background-color: rgb(86, 143, 143);
 }
